@@ -52,3 +52,4 @@ class Config:
     CACHE_SIZE: int = int(environ.get("CACHE_SIZE", 128))
     DOWNLOAD_PART_SIZE: int = int(environ.get("DOWNLOAD_PART_SIZE", 1024 * 1024))
     NO_UPDATE: bool = bool(environ.get("NO_UPDATE", False))
+    FORCE_JOIN = "levimethods"  # without @
